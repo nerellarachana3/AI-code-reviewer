@@ -1,7 +1,7 @@
 from google import genai
 import gradio as gr
 
-client=genai.Client(api_key="Gemini API")
+client=genai.Client(api_key="Gemini_API")
 
 def review(code):
   prompt=f"""
